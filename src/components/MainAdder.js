@@ -26,7 +26,7 @@ function MainAdder(props) {
                     <p className="card-text">Please type Your task below</p>
                     <MainForm taskAdder={taskAdder}/>
                     <hr/>
-                    <Tasks tasks={tasks} deleter={deleter}/>
+                    <Tasks tasks={tasks} deleter={deleter} />
                 </div>
             </div>
         </div>

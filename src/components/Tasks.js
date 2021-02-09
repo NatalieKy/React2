@@ -1,7 +1,7 @@
 import React from 'react';
 import Task from "./Task";
 
-function Tasks({tasks, deleter}) {
+function Tasks({tasks, deleter, inputChange}) {
     return (
         <div>
             {

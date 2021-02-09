@@ -2,16 +2,16 @@ export const defaultTasks = [
     {
         id: 1,
         name: 'Wake up',
-        Done: true
+        priority: false
     },
     {
         id: 2,
         name: 'Make breakfast',
-        Done: true
+        priority: false
     },
     {
         id: 3,
         name: 'Feed a cat',
-        Done: true
+        priority: false
     },
 ]
