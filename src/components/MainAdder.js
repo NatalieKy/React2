@@ -12,6 +12,7 @@ function MainAdder(props) {
         e.preventDefault()
         let x = document.getElementById('mainer')
         setTasks([...tasks, {id: Math.random() * 100, name: x.value}])
+        x.value = ''
     }
 
     const deleter = (id) => {
